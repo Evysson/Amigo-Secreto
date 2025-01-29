@@ -21,7 +21,7 @@
 
     let resultadoLista = document.getElementById('resultado');
     resultadoLista.innerHTML = "";
-
+    document.getElementById('listaAmigos').innerHTML = [];
     let item = document.createElement('li');
     item.textContent = `Amigo sorteado: ${amigoSorteado}`;
     resultadoLista.appendChild(item);
